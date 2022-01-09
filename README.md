@@ -24,6 +24,10 @@ return (
 - Use cascade for changing defaults from backend.
 - Size less than 1 kB unzipped.
 
+## Demo
+
+As far as possible to make [a visual demo for this type of library](https://a-dev.github.io/t-getter/). See [the source here](https://github.com/a-dev/t-getter/tree/main/examples/demo).
+
 ## Installation
 
 ```
