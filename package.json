@@ -44,7 +44,8 @@
     },
     "demo": {
       "source": "examples/demo/index.html",
-      "distDir": "./docs"
+      "distDir": "./docs",
+      "publicUrl": "/t-getter"
     }
   },
   "scripts": {
