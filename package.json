@@ -1,6 +1,6 @@
 {
   "name": "t-getter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Library for making texts from objects",
   "license": "MIT",
   "author": "@a-dev <andytev@gmail.com>",
