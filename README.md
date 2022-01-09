@@ -82,7 +82,7 @@ return(
   <nav>
     <a href="#">{t('header.menu.services')}</a>
     <a href="#">{t('header.menu.about')}</a>
-  </nam>
+  </nav>
 )
 
 // ./component/BlogPost

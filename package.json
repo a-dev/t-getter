@@ -44,21 +44,17 @@
     },
     "demo": {
       "source": "examples/demo/index.html",
-      "distDir": "./examples/demo/build"
-    },
-    "demo_dev": {
-      "source": "examples/demo/index.html",
-      "distDir": "examples/demo/build_dev"
+      "distDir": "./docs"
     }
   },
   "scripts": {
     "dev": "deno run ./examples/base/index.js",
-    "demo": "parcel --target demo --log-level verbose",
+    "demo": "parcel serve examples/demo/index.html --dist-dir examples/demo/build --log-level verbose",
     "test": "jest",
     "build": "npm run clean:dist && parcel build --target main --target module --target types --no-source-maps --log-level verbose",
     "build:demo": "npm run clean:demo && parcel build --target demo --log-level verbose --no-source-maps",
     "clean:dist": "rimraf dist",
-    "clean:demo": "rimraf examples/demo/build"
+    "clean:demo": "rimraf docs"
   },
   "devDependencies": {
     "@parcel/packager-ts": "^2.1.1",

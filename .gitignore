@@ -27,4 +27,4 @@ coverage
 parcel-bundle-reports/
 
 dist/
-examples/demo/build_dev/
+examples/demo/build/
